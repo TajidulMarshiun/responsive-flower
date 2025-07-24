@@ -1,0 +1,82 @@
+
+/* Navbar section */
+.dark-3{
+    color: rgba(137, 135, 161, 1);
+}
+
+.Orange{
+    color: #E95A08;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black; 
+    gap: 20px;
+}
+.nav-item{
+    margin-top: 30px;
+    margin-right: 30px;
+    gap: 20px;
+   
+}
+.nav-item ul{
+    gap: 20px;
+}
+/* banner section */
+.banner-title{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.bnr-img{
+    width: 570px;
+    height: 355px;
+    padding: 10px;
+}
+.banner-description{
+    width: 570px;
+    height: 200px;
+    margin-top: 65px;
+    padding: 10px;
+}
+.baner{
+    display: flex;
+    width: 1167px;
+    height: 463px;
+    margin: 50px auto;
+}
+
+
+/* smaller devices */
+@media screen and (max-width:576px) {
+    .dark-3, 
+    .home{
+        display: none;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    
+   .navbar{
+    
+    gap: 200px;
+   }
+    .flower{
+        font-size: 2rem;
+    }
+    /* banner section */
+    .baner{
+       flex-direction: column-reverse;
+       margin-top: 250px;
+       width: 576px;
+    }
+    
+
+
+}
